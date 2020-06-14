@@ -163,6 +163,6 @@
 @media (max-width: 360px) {
   .cookieBubble {
     border-radius: 10px;
-    max-width: 330px;
+    max-width: 300px;
     left: 0px !important;
     bottom: 0px !important; } }
