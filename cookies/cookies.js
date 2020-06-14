@@ -9,7 +9,7 @@
 	$.cookieBubble = function (options) {
 			var private_opt = {
 				cookieName: 'cookieBubble',
-				isVisible: true,
+				isVisible: false,
 				cookieValue: true
 			}
 			//extended opts
