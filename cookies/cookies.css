@@ -15,7 +15,7 @@
   .cookie-bubble.top-right {
     top: 10px;
     right: 0px; }
-  .cookie-bubble.top-center1 {
+  .cookie-bubble.top-center {
     top: 10px;
     left: calc(100vw - 100vw/2 - 400px/2); }
   .cookie-bubble.bottom-left {
@@ -24,7 +24,7 @@
   .cookie-bubble.bottom-right {
     bottom: 10px;
     right: 0px; }
-  .cookie-bubble.bottom-center1 {
+  .cookie-bubble.bottom-center {
     bottom: 10px;
     left: calc(100vw - 100vw/2 - 400px/2); }
   .cookie-bubble.show.top-left, .cookie-bubble.show.top-center, .cookie-bubble.show.top-right {
@@ -160,9 +160,9 @@
     bottom: 0px !important; }
   .cookieBubble .cb-image {
     display: none; } }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
   .cookieBubble {
     border-radius: 10px;
-    width: 70%; } 
+    max-width: 70px; } 
   .cookieBubble .cb-image {
     display: none; } }
