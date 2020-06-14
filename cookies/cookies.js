@@ -15,15 +15,15 @@
 			//extended opts
 			var settings = $.extend({	
 				cookieMaxAge  							: 18, 
-				messageText								: 'We use cookies to personalize your experience. By continuing to visit this website you agree to our use of cookies.', 
+				messageText								: 'Situs web ini menggunakan cookie untuk memastikan Anda mendapatkan pengalaman terbaik di situs web kami.', 
 				messageTextColor						: undefined,        
 				messageFontSize							: undefined,				 
-				buttonText 								: 'Got it',   
+				buttonText 								: 'Setuju',   
 				buttonColor								: undefined,   				
 				buttonFontSize							: undefined,				  
 				iconColor								: undefined,    			 
 				iconVisibility		  					: true, 		              
-				cookiePolicyButtonText					: 'Read Our Cookie Policy',
+				cookiePolicyButtonText					: 'Selengkapnya',
 				cookiePolicyButtonTextColor		    	: undefined,
 				cookiePolicyButtonUrl					: '/p/cookies.html',
 				cookiePolicyButtonTarget				: '_blank',
