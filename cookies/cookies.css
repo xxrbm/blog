@@ -152,18 +152,3 @@
     -webkit-transform: translateY(0px);
             transform: translateY(0px); } }
 
-@media screen and (max-width: 420px) {
-  .cookieBubble {
-    border-radius: 10px;
-    max-width: 391px;
-    left: 0px !important;
-    bottom: 0px !important; }
-  .cookieBubble .cb-image {
-    display: none; } 
-.cookieBubble .copyright-wrapper a.copyright{display: none}}
-@media screen and (max-width: 375px) {
-  .cookieBubble {
-    border-radius: 10px;
-    max-width: 70px; } 
-  .cookieBubble .cb-image {
-    display: none; } }
