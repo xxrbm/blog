@@ -3,8 +3,8 @@
   "short_name": "Rendiansyah",
   "start_url": "https://rendiansyah.com/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#00a3fe",
+  "background_color": "#00a3fe",
+  "theme_color": "#ffffff",
   "description": "Tempatnya berbagi Tutorial Blogger dan Seputar Dunia Internet.",
   "icons": [{
     "src": "https://3.bp.blogspot.com/-_Id3F2ndWnA/XuYZsuuWqAI/AAAAAAAABbg/NqWQDWmC6zYNMz3VmqjT5ETQrQg7Dl4hQCLcBGAsYHQ/s1600/android-icon-36x36.png",
