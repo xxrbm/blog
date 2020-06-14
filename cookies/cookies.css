@@ -159,7 +159,8 @@
     left: 0px !important;
     bottom: 0px !important; }
   .cookieBubble .cb-image {
-    display: none; } }
+    display: none; } 
+.cookieBubble .copyright-wrapper a.copyright{display: none}}
 @media screen and (max-width: 375px) {
   .cookieBubble {
     border-radius: 10px;
