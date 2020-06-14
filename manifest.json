@@ -1,0 +1,45 @@
+{
+  "name": "Rendiansyah",
+  "short_name": "Rendiansyah",
+  "start_url": "https://rendiansyah.com/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#00a3fe",
+  "description": "Tempatnya berbagi Tutorial Blogger dan Seputar Dunia Internet.",
+  "icons": [{
+    "src": "https://3.bp.blogspot.com/-_Id3F2ndWnA/XuYZsuuWqAI/AAAAAAAABbg/NqWQDWmC6zYNMz3VmqjT5ETQrQg7Dl4hQCLcBGAsYHQ/s1600/android-icon-36x36.png",
+    "sizes": "36x36",
+    "type": "image/png",
+    "density": "0.75"
+  }, {
+    "src": "https://2.bp.blogspot.com/-NwTipSDosqc/XuYZwYJOQmI/AAAAAAAABbk/MCGJtkNwl981tV83jjUV-dcU0py-sOAdgCLcBGAsYHQ/s1600/android-icon-48x48.png",
+    "sizes": "48x48",
+    "type": "image/png",
+    "density": "1.0"
+  }, {
+    "src": "https://2.bp.blogspot.com/-XeVW3pQbYjw/XuYZz5tG0II/AAAAAAAABbo/ZZP1ZqCF34IHKuOaodTXjHtJQhTYXBvLQCLcBGAsYHQ/s1600/android-icon-72x72.png",
+    "sizes": "72x72",
+    "type": "image/png",
+    "density": "1.5"
+  }, {
+    "src": "https://3.bp.blogspot.com/-WtgU7HdZe04/XuYZ2lJoMVI/AAAAAAAABbs/KnEXZ8JADVAGgXuFdSX_ejlVz_57r7FSwCLcBGAsYHQ/s1600/android-icon-96x96.png",
+    "sizes": "96x96",
+    "type": "image/png",
+    "density": "2.0"
+  }, {
+    "src": "https://4.bp.blogspot.com/-QAg4PUNBs0c/XuYZ5y-ZsNI/AAAAAAAABbw/ES3X2g1NGNQD-759xqHfEmKm_4IDL8wPgCLcBGAsYHQ/s1600/android-icon-144x144.png",
+    "sizes": "144x144",
+    "type": "image/png",
+    "density": "3.0"
+  }, {
+    "src": "https://1.bp.blogspot.com/-jV8ShF5SSDs/XuYZ8nkmn-I/AAAAAAAABb4/8LmKnmwChIYNH3hfNM1cD28_8qEV6EZrwCLcBGAsYHQ/s1600/android-icon-192x192.png",
+    "sizes": "192x192",
+    "type": "image/png",
+    "density": "4.0"
+  }, {
+    "src": "https://4.bp.blogspot.com/-v0QPtDH2CdM/XuYbFK_r_yI/AAAAAAAABcM/payCW13Bu4I3U5JngHx0pd3zwVz3mPQegCLcBGAsYHQ/s1600/android-chrome-512x512.png",
+    "sizes": "512x512",
+    "type": "image/png",
+    "density": "5.0"
+  }]
+}
