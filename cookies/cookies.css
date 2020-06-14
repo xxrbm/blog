@@ -152,7 +152,7 @@
     -webkit-transform: translateY(0px);
             transform: translateY(0px); } }
 
-@media (max-width: 420px) {
+@media screen and (max-width: 420px) {
   .cookieBubble {
     border-radius: 10px;
     max-width: 391px;
@@ -160,7 +160,7 @@
     bottom: 0px !important; }
   .cookieBubble .cb-image {
     display: none; } }
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .cookieBubble {
     border-radius: 10px;
     max-width: 190px;
