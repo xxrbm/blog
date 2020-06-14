@@ -112,7 +112,7 @@
   margin-top: 20px; }
   .cookieBubble .copyright-wrapper a.copyright {
     position: absolute;
-    width: 80px;
+    width: 70px;
     height: 16px;
     bottom: 8px;
     right: 7px;
@@ -151,4 +151,11 @@
   100% {
     -webkit-transform: translateY(0px);
             transform: translateY(0px); } }
-
+@media (max-width:420px){
+.cookieBubble{
+   border-radius:0;
+   max-width:inherit;
+   left:0!important;
+   bottom:0!important}
+.cookieBubble .cb-image{
+   display:none}}
