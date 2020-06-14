@@ -163,6 +163,6 @@
 @media screen and (max-width: 320px) {
   .cookieBubble {
     border-radius: 10px;
-    max-width: 190px; } 
+    width: 70%; } 
   .cookieBubble .cb-image {
     display: none; } }
