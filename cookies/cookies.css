@@ -163,6 +163,8 @@
 @media (max-width: 360px) {
   .cookieBubble {
     border-radius: 10px;
-    max-width: 300px;
+    max-width: 290px;
     left: 0px !important;
-    bottom: 0px !important; } }
+    bottom: 0px !important; } 
+  .cookieBubble .cb-image {
+    display: none; } }
