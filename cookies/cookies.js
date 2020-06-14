@@ -23,7 +23,7 @@
 				buttonFontSize							: undefined,				  
 				iconColor								: undefined,    			 
 				iconVisibility		  					: true, 		              
-				cookiePolicyButtonText					: 'Selengkap',
+				cookiePolicyButtonText					: 'Selengkapnya',
 				cookiePolicyButtonTextColor		    	: undefined,
 				cookiePolicyButtonUrl					: '/p/cookies.html',
 				cookiePolicyButtonTarget				: '_blank',
