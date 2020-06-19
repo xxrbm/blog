@@ -8,22 +8,22 @@ $.fn.lightzoom = function(options) {
 
     var settings = $.extend({
         zoomPower   : 3,
-        glassSize   : 175,
+        lightzoomSize   : 175,
     }, options);
 
-    var halfSize= settings.glassSize /2;
-    var quarterSize = settings.glassSize/4;
+    var halfSize= settings.lightzoomSize /2;
+    var quarterSize = settings.lightzoomSize/4;
 
     var zoomPower = settings.zoomPower;
 
-    $("body").append('<div id="glass"></div>');
-    $('html > head').append($('<style> #glass{width: '+settings.glassSize+'px; height: '+settings.glassSize+'px;}</style>'));
+    $("body").append('<div id="lightzoom"></div>');
+    $('html > head').append($('<style> #lightzoom{width: '+settings.lightzoomSize+'px; height: '+settings.lightzoomSize+'px;}</style>'));
 
 
     var faker;
     var obj=this;
 
-    $("#glass").mousemove(function(event) {
+    $("#lightzoom").mousemove(function(event) {
         var obj=this.targ;
         event.target=obj;
         faker(event,obj);
@@ -34,7 +34,7 @@ $.fn.lightzoom = function(options) {
     });
     faker=function(event,obj) {
         //console.log(obj);
-        document.getElementById('glass').targ=obj;
+        document.getElementById('lightzoom').targ=obj;
         var mx = event.pageX;
         var my = event.pageY;
         var bounding = obj.getBoundingClientRect();
@@ -50,7 +50,7 @@ $.fn.lightzoom = function(options) {
             var cy = (((my - ot + offsetYfixer ) / h)) * 100;
             my -= halfSize;
             mx -= halfSize;
-            $("#glass").css({
+            $("#lightzoom").css({
                 "top": (my),
                 "left": (mx),
                 "background-image" : " url('" + obj.src + "')",
@@ -60,7 +60,7 @@ $.fn.lightzoom = function(options) {
             });
             $("body").css("cursor","none");
         }else {
-            $("#glass").css("display", "none");
+            $("#lightzoom").css("display", "none");
             $("body").css("cursor","default");
         }
     };
