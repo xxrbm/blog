@@ -1,0 +1,66 @@
+/*
+ *
+ * simple-reader.js v1.0
+ * Copyright 2020 Karasu themes
+ * Developed by Marcelo (github.com/MarceloTLD)
+ * Licensed under MIT
+ *
+ */
+ 
+.reader-control{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	font-size:14px;
+	color:#80a1c0;
+	font-weight:500;
+	padding:8px 0
+}
+.reader-control button,
+.reader-nav a{
+	background-color:#21282c;
+	color:#80a1c0;
+	outline:0;
+	border:0;
+	height:40px;
+	padding:0 15px;
+	font-size:14px;
+	border-radius:4px;
+	cursor:pointer;
+	line-height:40px;
+	text-decoration:none;
+	transition:all .3s
+}
+.reader-control button svg,
+.reader-nav a svg{
+	width:24px;
+	height:24px
+}
+.reader-control button:hover,
+.reader-nav a:hover{
+	background-color:#00a3fe;
+	color:#fff
+}
+.reader-control button{
+	margin-right:8px
+}
+.reader-state{
+	padding:8px 0
+}
+.reader-pages{
+	padding:8px 0
+}
+.reader-pages img{
+	width:100%;
+	max-width:100%;
+	border-radius:4px
+}
+.reader-nav{
+	padding:10px 0 0;
+	display:flex;
+	align-items:center;
+	justify-content:space-between
+}
+.reader-nav a{
+	font-weight:500
+}
