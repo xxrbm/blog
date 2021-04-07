@@ -39,7 +39,7 @@
 .reader-control button:hover,
 .reader-nav a:hover{
 	background-color:#00a3fe;
-	color:#fff
+	color:#fff!important
 }
 .reader-control button{
 	margin-right:8px
