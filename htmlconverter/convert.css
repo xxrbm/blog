@@ -1,0 +1,54 @@
+/*
+ *
+ * HTML Converter for Blogger
+ * Copyright (c) 2021 Rendiansyah <worteldzgn@gmail.com>
+ *
+ * Website: https://rendiansyah.com
+ * Github: https://github.com/Rendii09
+ *
+ */
+
+#html-converter{
+	position:relative;
+	overflow:hidden
+}
+#html-converter #convert{
+	width:100%;
+	height:320px;
+	background-color:#21282c;
+	color:#f9f9f9;
+	padding:20px;
+	border-radius:6px;
+	opacity:.7;
+	border:0
+}
+#html-converter #convert:active,
+#html-converter #convert:focus{
+	outline:0
+}
+#html-converter .btn-html-converter{
+	margin:20px 0
+}
+#html-converter button{
+	background-color:none;
+	border:0
+}
+#html-converter button:focus{
+	outline:0
+}
+#html-converter .btn{
+	font-size:14px;
+	font-weight:500;
+	color:#80a1c0;
+	padding:10px 15px;
+	margin:0 auto;
+	border-radius:4px
+}
+#html-converter .btn.convert{
+	background-color:#21282c;
+	margin-right:5px
+}
+#html-converter .btn.clear{
+	background-color:#00a3fe;
+	color:#f9f9f9
+}
