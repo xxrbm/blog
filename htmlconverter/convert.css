@@ -36,7 +36,7 @@
 #html-converter button:focus{
 	outline:0
 }
-#html-converter .btn{
+#html-converter .button{
 	font-size:14px;
 	font-weight:500;
 	color:#80a1c0;
@@ -44,11 +44,11 @@
 	margin:0 auto;
 	border-radius:4px
 }
-#html-converter .btn.convert{
+#html-converter .button.convert{
 	background-color:#21282c;
 	margin-right:5px
 }
-#html-converter .btn.clear{
+#html-converter .button.clear{
 	background-color:#00a3fe;
 	color:#f9f9f9
 }
