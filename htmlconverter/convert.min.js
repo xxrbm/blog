@@ -4,7 +4,7 @@
  * Copyright (c) 2021 Rendiansyah <worteldzgn@gmail.com>
  *
  * Website: https://rendiansyah.com
- * Github: https://github.com/Rendii09
+ * Github: https://github.com/worteldzgn
  *
  */
 
